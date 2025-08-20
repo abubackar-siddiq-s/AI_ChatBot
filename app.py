@@ -32,7 +32,7 @@ st.set_page_config(
 )
 
 st.title("🤖 AI ChatBot")
-st.caption("A simple chatBot with memory by Abubackar Siddiq")
+st.caption("A simple chatBot by Abubackar Siddiq")
 
 # --- Session State Initialization ---
 if "messages" not in st.session_state:
