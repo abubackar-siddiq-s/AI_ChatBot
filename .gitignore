@@ -3,6 +3,10 @@ myenv/
 .venv/
 env/
 
+venv/
+.venv/
+env/
+
 # Ignore Python cache
 __pycache__/
 
