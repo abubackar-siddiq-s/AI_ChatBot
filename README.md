@@ -23,20 +23,25 @@ To run this project on your local machine, follow these steps:
 ```bash
 git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
 cd your-repository-name
+```
 
 **2. Create a virtual environment:**
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
 
 **3. Install the required libraries:**
 ```bash
 pip install -r requirements.txt
+```
 
 **4. Set up your API Key:**
 ```bash
 GEMINI_API_KEY = "YOUR_API_KEY_HERE"
+```
 
 **5. Run the Streamlit app:**
 ```bash
 streamlit run app.py
+```
