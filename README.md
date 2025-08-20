@@ -26,12 +26,16 @@ cd your-repository-name
 ```
 
 **2. Create a virtual environment:**
+It's recommended to use a virtual environment to manage project dependencies.
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
 
 **3. Install the required libraries:**
+Create a folder named .streamlit in the main project directory.
+Inside this folder, create a file named secrets.toml.
+Add your Gemini API key to this file:
 ```bash
 pip install -r requirements.txt
 ```
