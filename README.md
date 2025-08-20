@@ -1,4 +1,4 @@
-# 🤖 Gemini Chatbot with Streamlit
+# 🤖 Chatbot with Streamlit
 
 A simple and beginner-friendly chatbot application built with Python, Streamlit, and powered by the Google Gemini API. This project demonstrates how to create a conversational AI with a clean web interface.
 
@@ -26,16 +26,18 @@ cd your-repository-name
 ```
 
 **2. Create a virtual environment:**
+
 It's recommended to use a virtual environment to manage project dependencies.
+
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
 
 **3. Install the required libraries:**
-- **Create a folder named .streamlit in the main project directory.
-- **Inside this folder, create a file named secrets.toml.
-- **Add your Gemini API key to this file:
+- Create a folder named .streamlit in the main project directory.
+- Inside this folder, create a file named secrets.toml.
+- Add your Gemini API key to this file:
 ```bash
 pip install -r requirements.txt
 ```
